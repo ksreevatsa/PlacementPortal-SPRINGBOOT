@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer
 	    public void addCorsMappings(CorsRegistry registry) 
 	    {
 	      registry.addMapping("/**") // Allow CORS 
-	                .allowedOrigins("https://placementpulse.vercel.app")
+	                .allowedOrigins("https://placementpulse-git-main-ksreevatsas-projects.vercel.app")
 	                .allowedMethods("GET", "POST", "PUT", "DELETE")
 	                .allowedHeaders("*")
 	                .allowCredentials(true);
